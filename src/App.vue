@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="apps"></div>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -17,10 +17,21 @@ export default {
 </script>
 
 <style>
-#app {
-}
 body{
   background-image: url('./assets/images/background.jpg');
   background-size: cover;
+  background-attachment: scroll;
+}
+#apps{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.full-height{
+  height: 100%;
+}
+.full-vh{
+  height: 100vh;
 }
 </style>
