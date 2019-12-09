@@ -1,0 +1,34 @@
+triggers:3{
+	1: for table "choosen_universities":
+	before insert : inter the last update time to the users table 
+	2: 
+},
+functions:2{
+	1:  {
+		getUniversityByCode(code):(also a cursor)
+		select * from universities where university_code like code;
+	},
+	2: {
+
+	}
+	},
+procedures:2{
+}
+
+
+get (distinct) subject2 from specialities where subject1 like subject1
+get profession_code,speciality_name from specialities where subject1 like subject1 and subject2 like subject2
+select name from universities where university_code like (get university_code from university_profession where proffesion_code like profession_code)
+
+
+
+
+
+
+tables:
+specialities: profession_code,name,subject1,subject2
+professions:profession_code,field,name
+universities: university_code, name, adress, region
+university_profession: profession_code, university_code
+users:full_name,user_email,password,last_update
+choosen_universities: user_email,university_name,choosen_time,profession_name,speciality_name
