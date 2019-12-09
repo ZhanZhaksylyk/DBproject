@@ -1,12 +1,12 @@
 <template>
-  <div class="container flex-column bg-light-gray flex-fill">
+  <div class="container flex-column bg-light-blue">
     <div class="flex-row mt-3">
       <div class="half-width">
-        <tree-select name="name" placeholder="Subject 1" v-model='subject1Post' :options='subject1Get' @input="doIt(value)"/>
+        <tree-select name="name" placeholder="Subject 1" v-model='subject1Post' :options='subject1Get' />
       </div>
       <div class="ml-3">
         <input type="checkbox" name="english">
-        <label> ENGLISH </label>
+        <label>English</label>
       </div>
     </div>
     <div class="flex-row mt-3">
@@ -29,7 +29,7 @@
         <button class="btn btn-outline-primary p-2 half-width ml-auto mr-auto mt-3 mb-3" v-on:click="goToUniversities">SUBMIT</button> 
       </div>
       <!-- right part -->
-      <div class="flex-column half-width pl-3 justify-content-between">
+      <div class="flex-column half-width pl-3 justify-content-center bg-white round">
         <div class="d-flex flex-wrap">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

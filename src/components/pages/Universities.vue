@@ -1,34 +1,34 @@
 <template>
 	<div class="flex-row flex-wrap justify-content-between full-width">
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 		<div class="box bg-gray border">
-			dka;fjadlkfj
-			adflkjahd
-			d;lahfdkj
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
+			aaaaaaaaaaaa
 		</div>
 	</div>
 </template>
